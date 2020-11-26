@@ -1,4 +1,4 @@
-!python -m pip install tweepy
+python -m pip install tweepy
 import tweepy
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
