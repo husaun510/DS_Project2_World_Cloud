@@ -20,7 +20,7 @@ auth.set_access_token(access_token_key, access_token_secret)
 api = tweepy.API(auth)
 
 
-app = Flask(__name__)
+app = Flask(__name__,static_url_path='')
 run_with_ngrok(app)
 @app.route('/')
 
