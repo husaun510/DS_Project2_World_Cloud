@@ -4,7 +4,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import numpy as np
 from flask import Flask, render_template, request
-from flask_ngrok import run_with_ngrok
+# from flask_ngrok import run_with_ngrok
 
 
 consumer_key='fbR5kFHpU8qExKleXnefRzQfQ'
