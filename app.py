@@ -40,7 +40,7 @@ def result():
       # plt.imshow(cloud)
 
       image = np.array(cloud)
-      cv2.imwrite('/content/DS_Project2_World_Cloud/static/cloud.jpg', image, [cv2.IMWRITE_JPEG_QUALITY, 100])
+      cv2.imwrite('./DS_Project2_World_Cloud/static/cloud.jpg', image, [cv2.IMWRITE_JPEG_QUALITY, 100])
 
       return render_template("result.html",result = result)
 
