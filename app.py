@@ -1,9 +1,8 @@
-py -m pip install tweepy
+import cv2
 import tweepy
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import numpy as np
-import cv2
 from flask import Flask, render_template, request
 from flask_ngrok import run_with_ngrok
 
