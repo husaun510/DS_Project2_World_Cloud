@@ -20,10 +20,6 @@ numpy==1.16.3
 oauthlib==3.0.1
 pandas==0.24.2
 pandas-datareader==0.7.0
-plotly==3.9.0
-pyparsing==2.4.0
-pyrsistent==0.15.2
-PySocks==1.7.0
 python-dateutil==2.8.0
 pytz==2019.1
 requests==2.22.0
