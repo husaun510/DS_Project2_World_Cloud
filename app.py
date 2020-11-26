@@ -21,7 +21,7 @@ api = tweepy.API(auth)
 
 
 app = Flask(__name__)
-run_with_ngrok(app)
+# run_with_ngrok(app)
 @app.route('/')
 
 def Hashtag():
