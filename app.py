@@ -20,7 +20,7 @@ auth.set_access_token(access_token_key, access_token_secret)
 api = tweepy.API(auth)
 
 
-app = Flask(__name__,static_url_path='')
+app = Flask(__name__)
 run_with_ngrok(app)
 @app.route('/')
 
@@ -41,7 +41,7 @@ def result():
       # plt.imshow(cloud)
 
       image = np.array(cloud)
-      cv2.imwrite('/content/DS_Project2_World_Cloud/cloud.jpg', image, [cv2.IMWRITE_JPEG_QUALITY, 100])
+      cv2.imwrite('../cloud.jpg', image, [cv2.IMWRITE_JPEG_QUALITY, 100])
 
       return render_template("result.html",result = result)
 
