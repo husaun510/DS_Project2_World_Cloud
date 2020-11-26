@@ -1,0 +1,7 @@
+<!doctype html>
+<html>
+   <body>
+   <h1>World cloud {{ result }} </h1>
+   <img src='../static/img/cloud.jpg' alt="User Image">
+   </body>
+</html>
